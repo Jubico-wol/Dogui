@@ -1,0 +1,19 @@
+main{
+    background: url(../../assets/img/bg-red.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.img-titular{
+    max-width: 430px;
+}
+
+.white{
+    color: white;
+}
+.bold{
+    font-weight: bold;
+}

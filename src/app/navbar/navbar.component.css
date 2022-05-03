@@ -1,0 +1,15 @@
+.bg-light {
+    background-color: #f0f8ff00 !important;
+}
+.nav-image{
+    max-width: 85px;
+}
+
+
+.bg-light{
+    background-image: url(../../assets/img/bg-2red.png);
+      background-repeat: no-repeat;
+      top: 0;
+      /* z-index: -1; */
+      background-size: cover;
+  }

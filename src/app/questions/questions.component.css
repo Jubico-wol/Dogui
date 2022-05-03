@@ -1,0 +1,74 @@
+#caja1 {
+    background-image: url("../../assets/img/bg-2red.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+  }
+  #caja2 {
+    background-image: url("../../assets/img/bg-yellow.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: fixed;
+    width: 100%;
+    min-height: 100vh;
+    top: 0;
+    z-index: -2;
+    background-attachment: fixed;
+  }
+  /* #caja3 {
+    background-image: url("images/help.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  } */
+
+
+
+  
+section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFCE00;
+}
+
+
+
+
+.image-dogui{
+    max-width: 175px;
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.responsive-iframe {
+
+    max-width: 100%;
+  }
+
+  ::ng-deep .survey-footer{display: none !important;}
+  .standard-footer{display: none !important;}
+
+
+
+  @media screen and (max-width: 360px) {
+    .image-dogui{ display: none;}
+
+    .pattern {
+      background-color: #FFCE00;
+      background-image: url(../../assets/img/bg-2red.png);
+      background-repeat: no-repeat;
+      top: 0;
+      z-index: -1;
+      background-size: contain;
+  }
+
+
+  }

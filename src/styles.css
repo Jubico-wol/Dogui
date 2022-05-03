@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.img-100w{
+    width: 100%;
+}
+
+.btn-model{
+    border-radius: 25px;
+    color: white;
+    width: 165px;
+}
